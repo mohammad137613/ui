@@ -5,6 +5,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <!-- Bootstrap CSS -->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet"
  href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css"
  integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If"
@@ -33,9 +34,14 @@ crossorigin="anonymous"></script>
          <div class="navbar-nav ">
           <a class="nav-link nav-item" id="home" href="#">خانه</a>
       </div>
-      <form class="form-inline">
-  <input class="form-control w-100" type="search" placeholder= "جست و جو در جوابکو ..." aria-label="Search">
-</form>
+      <div class="input-group " id="search-form">
+        <input type="text" class="form-control" placeholder="جست و جو ...">
+        <div class="input-group-append">
+          <button class="btn" id="search-icon" type="button">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+      </div>
       <div class="navbar-nav ml-auto">
           <a class="nav-link nav-item btn " id="login" href="#">ورود</a>
       </div>
