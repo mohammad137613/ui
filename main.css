@@ -30,12 +30,20 @@ ul {
   font-weight: 600;
   padding-bottom: .8rem;
 }
+#home
+{
+  color:#4d4d4d;
+}
 #search-icon
 {
   background-color:#E7ECF0;
-  color:black;
+  color:#4d4d4d;
 }
-#signup
+#search-icon:hover
+{
+  background-color:#d0dae2;
+}
+#login
 {
   color:white;
   background-color:#1DA1F3;
@@ -45,10 +53,29 @@ ul {
   border-width: 1px 1px 1px 1px;
   border-radius: 20px;
 }
-#signup:hover
+#login:hover
 {
   color:#1DA1F3;
   background-color:#E8F5FE;
+  padding-bottom: .7rem;
+  border-style: hidden;
+  border-width: 1px 1px 1px 1px;
+  border-radius: 20px;
+}
+#signup
+{
+  color:#4d4d4d;
+  background-color:#E7ECF0;
+  padding-bottom: .6rem;
+
+  border-style: hidden;
+  border-width: 1px 1px 1px 1px;
+  border-radius: 20px;
+}
+#signup:hover
+{
+  color:white;
+  background-color:#4d4d4d;
   padding-bottom: .7rem;
   border-style: hidden;
   border-width: 1px 1px 1px 1px;
