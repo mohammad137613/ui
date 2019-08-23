@@ -1,0 +1,487 @@
+body {
+  background: #fafafa;
+  color: #333333;
+  margin-top: 5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444444;
+}
+
+ul {
+  margin: 0;
+}
+
+.bg-white {
+  background-color: #FFFFFF;
+}
+.site-header .navbar-nav .nav-link
+{
+  color: #000000;
+  font-weight: 600;
+  border-style: hidden;
+  border-width: 1px 1px 1px 1px;
+  border-radius: 40px;
+}
+
+@media only screen and (min-width: 200px){
+.site-header .navbar .form-inline
+{
+  width:40%;
+}
+}
+@media only screen and (min-width: 576px){
+.site-header .navbar .form-inline
+{
+  width:57%;
+}
+#home
+{
+  margin-left:.7rem;
+}
+}
+@media only screen and (min-width: 600px){
+.site-header .navbar .form-inline
+{
+  width:59%;
+}
+}
+@media only screen and (min-width: 620px){
+.site-header .navbar .form-inline
+{
+  width:59%;
+}
+#home
+{
+  margin-left:.8rem;
+}
+}
+@media only screen and (min-width: 640px){
+.site-header .navbar .form-inline
+{
+  width:60%;
+}
+#home
+{
+  margin-left:.75rem;
+}
+}
+@media only screen and (min-width: 640px){
+.site-header .navbar .form-inline
+{
+  width:63%;
+}
+#home
+{
+  margin-left:1rem;
+}
+}
+@media only screen and (min-width: 700px){
+  .site-header .navbar .form-inline
+  {
+    width:50%;
+  }
+  #home
+  {
+    margin-left:1.6rem;
+    margin-right: .6rem;
+  }
+  #logo
+  {
+    margin-right:1.4rem;
+  }
+  #signup
+  {
+    margin-left:1.4rem;
+  }
+  #login
+  {
+    margin-left:.7rem;
+  }
+
+}
+@media only screen and (min-width: 740px){
+  .site-header .navbar .form-inline
+  {
+    width:50%;
+  }
+  #home
+  {
+    margin-left:1.6rem;
+    margin-right: .7rem;
+  }
+  #logo
+  {
+    margin-right:1.9rem;
+  }
+  #signup
+  {
+    margin-left:1.9rem;
+  }
+  #login
+  {
+    margin-left:.8rem;
+  }
+
+}
+@media only screen and (min-width: 800px){
+  .site-header .navbar .form-inline
+  {
+    width:50%;
+  }
+  #home
+  {
+    margin-left:1.7rem;
+    margin-right: .9rem;
+  }
+  #logo
+  {
+    margin-right:2.3rem;
+  }
+  #signup
+  {
+    margin-left:2.3rem;
+  }
+  #login
+  {
+    margin-left:1rem;
+  }
+}
+
+@media only screen and (min-width: 830px){
+  .site-header .navbar .form-inline
+  {
+    width:50%;
+  }
+  #home
+  {
+    margin-left:1.9rem;
+    margin-right: .9rem;
+  }
+  #logo
+  {
+    margin-right:2.7rem;
+  }
+  #signup
+  {
+    margin-left:2.7rem;
+  }
+  #login
+  {
+    margin-left:1rem;
+  }
+}
+@media only screen and (min-width: 860px){
+  .site-header .navbar .form-inline
+  {
+    width:50%;
+  }
+  #home
+  {
+    margin-left:2rem;
+    margin-right: .9rem;
+  }
+  #logo
+  {
+    margin-right:3.1rem;
+  }
+  #signup
+  {
+    margin-left:3.1rem;
+  }
+  #login
+  {
+    margin-left:1rem;
+  }
+}
+
+@media only screen and (min-width: 890px){
+  .site-header .navbar .form-inline
+  {
+    width:50%;
+  }
+  #home
+  {
+    margin-left:2.1rem;
+    margin-right: .9rem;
+  }
+  #logo
+  {
+    margin-right:3.5rem;
+  }
+  #signup
+  {
+    margin-left:3.5rem;
+  }
+  #login
+  {
+    margin-left:1rem;
+  }
+}
+@media only screen and (min-width: 920px){
+  .site-header .navbar .form-inline
+  {
+    width:50%;
+  }
+  #home
+  {
+    margin-left:2.3rem;
+    margin-right: .9rem;
+  }
+  #logo
+  {
+    margin-right:4rem;
+  }
+  #signup
+  {
+    margin-left:4rem;
+  }
+  #login
+  {
+    margin-left:1rem;
+  }
+}
+@media only screen and (min-width: 960px){
+  .site-header .navbar .form-inline
+  {
+    width:50%;
+  }
+  #home
+  {
+    margin-left:2.3rem;
+    margin-right: .9rem;
+  }
+  #logo
+  {
+    margin-right:4.4rem;
+  }
+  #signup
+  {
+    margin-left:4.4rem;
+  }
+  #login
+  {
+    margin-left:1rem;
+  }
+}
+@media only screen and (min-width: 992px){
+  .site-header .navbar .form-inline
+  {
+    width:50%;
+  }
+  #home
+  {
+    margin-left:2.5rem;
+    margin-right: .9rem;
+  }
+  #logo
+  {
+    margin-right:4.8rem;
+  }
+  #signup
+  {
+    margin-left:4.8rem;
+  }
+  #login
+  {
+    margin-left:1rem;
+  }
+}
+@media only screen and (min-width: 1010px){
+  .site-header .navbar .form-inline
+  {
+    width:50%;
+  }
+  #home
+  {
+    margin-left:2.7rem;
+    margin-right: .9rem;
+  }
+  #logo
+  {
+    margin-right:5.2rem;
+  }
+  #signup
+  {
+    margin-left:5.2rem;
+  }
+  #login
+  {
+    margin-left:1rem;
+  }
+}
+@media only screen and (min-width: 1050px){
+.site-header .navbar .form-inline
+{
+  width:50%;
+}
+#home
+{
+  margin-left:3rem;
+  margin-right: .9rem;
+}
+#logo
+{
+  margin-right:5.6rem;
+}
+#signup
+{
+  margin-left:5.6rem;
+}
+#login
+{
+  margin-left:1rem;
+}
+}
+
+@media only screen and (min-width: 1090px){
+  .site-header .navbar .form-inline
+  {
+    width:50%;
+  }
+  #home
+  {
+    margin-left:3.4rem;
+    margin-right: .9rem;
+  }
+  #logo
+  {
+    margin-right:6rem;
+  }
+  #signup
+  {
+    margin-left:6rem;
+  }
+  #login
+  {
+    margin-left:1rem;
+  }
+}
+
+@media only screen and (min-width: 1140px){
+  .site-header .navbar .form-inline
+  {
+    width:50%;
+  }
+  #home
+  {
+    margin-left:4rem;
+    margin-right: .9rem;
+  }
+  #logo
+  {
+    margin-right:6.4rem;
+  }
+  #signup
+  {
+    margin-left:6.4rem;
+  }
+  #login
+  {
+    margin-left:1rem;
+  }
+}
+
+@media only screen and (min-width: 1180px){
+  .site-header .navbar .form-inline
+  {
+    width:50%;
+  }
+  #home
+  {
+    margin-left:4rem;
+    margin-right: .9rem;
+  }
+  #logo
+  {
+    margin-right:6.8rem;
+  }
+  #signup
+  {
+    margin-left:6.8rem;
+  }
+  #login
+  {
+    margin-left:1rem;
+  }
+}
+@media only screen and (min-width: 1220px){
+  .site-header .navbar .form-inline
+  {
+    width:50%;
+  }
+  #home
+  {
+    margin-left:4rem;
+    margin-right: .9rem;
+  }
+  #logo
+  {
+    margin-right:7.3rem;
+  }
+  #signup
+  {
+    margin-left:7.3rem;
+  }
+  #login
+  {
+    margin-left:1rem;
+  }
+}
+@media only screen and (min-width: 1260px){
+  .site-header .navbar .form-inline
+  {
+    width:50%;
+  }
+  #home
+  {
+    margin-left:4.5rem;
+    margin-right: .9rem;
+  }
+  #logo
+  {
+    margin-right:7.7rem;
+  }
+  #signup
+  {
+    margin-left:7.7rem;
+  }
+  #login
+  {
+    margin-left:1rem;
+  }
+}
+@media only screen and (min-width: 1300px){
+  .site-header .navbar .form-inline
+  {
+    width:66%;
+  }
+  #home
+  {
+    margin-left:1rem;
+  }
+  #logo
+  {
+    margin-right:6.1rem;
+  }
+  #signup
+  {
+    margin-left:6.1rem;
+  }
+}
+.site-header .navbar-nav .nav-link:hover {
+  color: 	#1DA1F3;
+  background-color:#E8F5FE;
+
+
+
+}
+
+
+
+.site-header .navbar-nav .nav-link .active {
+
+  color: 	#1DA1F3;
+
+
+}
