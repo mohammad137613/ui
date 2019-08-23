@@ -18,10 +18,42 @@ ul {
 .site-header .navbar-nav .nav-link
 {
   color: #000000;
-  font-weight: 600;
+  font-weight: 520;
   border-style: hidden;
   border-width: 1px 1px 1px 1px;
   border-radius: 40px;
+
+}
+.site-header .navbar-nav .nav-link:hover {
+  color: 	#1DA1F3;
+  background-color:#E8F5FE;
+  font-weight: 600;
+  padding-bottom: .8rem;
+}
+#login
+{
+  color:white;
+  background-color:#1DA1F3;
+
+  padding-bottom: .6rem;
+  margin-top: .2rem;
+  border-style: hidden;
+  border-width: 1px 1px 1px 1px;
+  border-radius: 20px;
+}
+#login:hover
+{
+  color:#1DA1F3;
+  background-color:#E8F5FE;
+  padding-bottom: .7rem;
+  border-style: hidden;
+  border-width: 1px 1px 1px 1px;
+  border-radius: 20px;
+}
+ .site-header .navbar-nav .active {
+  color: 	#1DA1F3;
+
+
 }
 
 @media only screen and (min-width: 200px){
@@ -454,34 +486,23 @@ ul {
 @media only screen and (min-width: 1300px){
   .site-header .navbar .form-inline
   {
-    width:66%;
+    width:50%;
   }
   #home
   {
-    margin-left:1rem;
+    margin-left:4.6rem;
+    margin-right: 1.2rem;
   }
   #logo
   {
-    margin-right:6.1rem;
+    margin-right:8.1rem;
   }
   #signup
   {
-    margin-left:6.1rem;
+    margin-left:8.1rem;
   }
-}
-.site-header .navbar-nav .nav-link:hover {
-  color: 	#1DA1F3;
-  background-color:#E8F5FE;
-
-
-
-}
-
-
-
-.site-header .navbar-nav .nav-link .active {
-
-  color: 	#1DA1F3;
-
-
+  #login
+  {
+    margin-left:1.3rem;
+  }
 }
