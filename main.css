@@ -17,7 +17,7 @@ ul {
 }
 .site-header .navbar-nav .nav-link
 {
-  color: #000000;
+  color: 	#B92B27;
   font-weight: 520;
   border-style: hidden;
   border-width: 1px 1px 1px 1px;
@@ -34,6 +34,16 @@ ul {
 {
   color:#4d4d4d;
 }
+#home:hover
+{
+  color:	#B92B27;
+  padding-bottom: .5rem;
+  background-color: #FAFAFA;
+}
+#search-form
+{
+font-size: 2rem;
+}
 #search-icon
 {
   background-color:#E7ECF0;
@@ -46,7 +56,7 @@ ul {
 #login
 {
   color:white;
-  background-color:#1DA1F3;
+  background-color:	#B92B27;
   padding-bottom: .6rem;
 
   border-style: hidden;
@@ -55,8 +65,8 @@ ul {
 }
 #login:hover
 {
-  color:#1DA1F3;
-  background-color:#E8F5FE;
+  color:#B92B27;
+  background-color:#FAFAFA;
   padding-bottom: .7rem;
   border-style: hidden;
   border-width: 1px 1px 1px 1px;
@@ -75,7 +85,7 @@ ul {
 #signup:hover
 {
   color:white;
-  background-color:#4d4d4d;
+  background-color:#B92B27;
   padding-bottom: .7rem;
   border-style: hidden;
   border-width: 1px 1px 1px 1px;
@@ -86,28 +96,120 @@ ul {
 
 
 }
-
-@media only screen and (min-width: 200px){
-.site-header .navbar .form-inline
-{
-  width:40%;
+@media only screen and (min-width: 480px){
+  #search-form
+    {
+      width:45%;
+    }
+    #home
+    {
+      margin-left:.71rem;
+      margin-right: 0rem;
+    }
+    #logo
+    {
+      margin-right:0rem;
+    }
+    #signup
+    {
+      margin-left:0rem;
+    }
+    #login
+    {
+      margin-left:.5rem;
+    }
 }
+@media only screen and (min-width: 510px){
+  #search-form
+    {
+      width:50%;
+    }
+    #home
+    {
+      margin-left:.2rem;
+      margin-right: .3rem;
+    }
+    #logo
+    {
+      margin-right:0rem;
+    }
+    #signup
+    {
+      margin-left:0rem;
+    }
+    #login
+    {
+      margin-left:.65rem;
+    }
+}
+@media only screen and (min-width: 550px){
+  #search-form
+    {
+      width:50%;
+    }
+    #home
+    {
+      margin-left:.6rem;
+      margin-right: .3rem;
+    }
+    #logo
+    {
+      margin-right:.3rem;
+    }
+    #signup
+    {
+      margin-left:.3rem;
+    }
+    #login
+    {
+      margin-left:.7rem;
+    }
 }
 @media only screen and (min-width: 576px){
-.site-header .navbar .form-inline
-{
-  width:57%;
-}
-#home
-{
-  margin-left:.7rem;
-}
+  #search-form
+    {
+      width:50%;
+    }
+    #home
+    {
+      margin-left:.7rem;
+      margin-right: .3rem;
+    }
+    #logo
+    {
+      margin-right:.4rem;
+    }
+    #signup
+    {
+      margin-left:.4rem;
+    }
+    #login
+    {
+      margin-left:.8rem;
+    }
 }
 @media only screen and (min-width: 600px){
-.site-header .navbar .form-inline
-{
-  width:59%;
-}
+  #search-form
+    {
+      width:50%;
+    }
+    #home
+    {
+      margin-left:1rem;
+      margin-right: .5rem;
+    }
+    #logo
+    {
+      margin-right:.5rem;
+    }
+    #signup
+    {
+      margin-left:.4rem;
+    }
+    #login
+    {
+      margin-left:.8rem;
+    }
 }
 @media only screen and (min-width: 620px){
 #search-form
