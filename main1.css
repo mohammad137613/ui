@@ -15,12 +15,30 @@ ul {
 .bg-white {
   background-color: #FFFFFF;
 }
+.site-header .navbar-nav .nav-link
+{
+  color: 	#B92B27;
+  font-weight: 520;
+  border-style: hidden;
+  border-width: 1px 1px 1px 1px;
+  border-radius: 40px;
 
+}
+.site-header .navbar-nav .nav-link:hover {
+  color: 	#1DA1F3;
+  background-color:#E8F5FE;
+  font-weight: 600;
+  padding-bottom: .8rem;
+}
+#profile_pic
+{
+  width: 2rem;
+}
 #search-input {
   border: 1rem 1rem 1rem 1rem;
-  font-size: 1rem;
+
+  font-size: .9rem;
   border-color:#A9A9A9;
-  font-weight: 400;
 
 }
 #search-input::placeholder {
@@ -33,7 +51,7 @@ ul {
 #home
 {
   color:#4d4d4d;
-  font-size: 1.2rem;
+  font-size: .9rem;
 }
 #home:hover
 {
@@ -43,11 +61,11 @@ ul {
 }
 #search-form
 {
-font-size: .9rem;
+font-size: .85rem;
 }
 #search-icon
 {
-  font-size: .9rem;
+  font-size: .85rem;
   background-color:#E7ECF0;
   color:#4d4d4d;
   border-right: 1rem;
@@ -59,18 +77,18 @@ font-size: .9rem;
 }
 #login
 {
-  font-size: 1.2rem;
+  font-size: .85rem;
   color:white;
   background-color:	#B92B27;
   padding-bottom: .6rem;
+
   border-style: hidden;
   border-width: 1px 1px 1px 1px;
   border-radius: 20px;
-    font-weight: 600;
 }
 #login:hover
 {
-
+  font-size: .85rem;
   color:#B92B27;
   background-color:#E7ECF0;
   padding-bottom: .7rem;
@@ -80,11 +98,10 @@ font-size: .9rem;
 }
 #signup
 {
-    font-weight: 600;
   color:#4d4d4d;
   background-color:#E7ECF0;
   padding-bottom: .6rem;
-  font-size: 1.2rem;
+  font-size: .85rem;
   border-style: hidden;
   border-width: 1px 1px 1px 1px;
   border-radius: 20px;
