@@ -30,24 +30,42 @@ ul {
   font-weight: 600;
   padding-bottom: .8rem;
 }
+#search-input {
+  border: 1rem 1rem 1rem 1rem;
+
+  font-size: .9rem;
+  border-color:#A9A9A9;
+
+}
+#search-input::placeholder {
+  color: black;
+}
+#search-input:hover
+{
+
+}
 #home
 {
   color:#4d4d4d;
+  font-size: .9rem;
 }
 #home:hover
 {
-  color:	#B92B27;
+  color:#B92B27;
+  background-color:#E7ECF0;
   padding-bottom: .5rem;
-  background-color: #FAFAFA;
 }
 #search-form
 {
-font-size: 2rem;
+font-size: .85rem;
 }
 #search-icon
 {
+  font-size: .85rem;
   background-color:#E7ECF0;
   color:#4d4d4d;
+  border-right: 1rem;
+  border-color:#C0C0C0;
 }
 #search-icon:hover
 {
@@ -55,6 +73,7 @@ font-size: 2rem;
 }
 #login
 {
+  font-size: .85rem;
   color:white;
   background-color:	#B92B27;
   padding-bottom: .6rem;
@@ -65,8 +84,9 @@ font-size: 2rem;
 }
 #login:hover
 {
+  font-size: .85rem;
   color:#B92B27;
-  background-color:#FAFAFA;
+  background-color:#E7ECF0;
   padding-bottom: .7rem;
   border-style: hidden;
   border-width: 1px 1px 1px 1px;
@@ -77,7 +97,7 @@ font-size: 2rem;
   color:#4d4d4d;
   background-color:#E7ECF0;
   padding-bottom: .6rem;
-
+  font-size: .85rem;
   border-style: hidden;
   border-width: 1px 1px 1px 1px;
   border-radius: 20px;
@@ -212,35 +232,78 @@ font-size: 2rem;
     }
 }
 @media only screen and (min-width: 620px){
-#search-form
-{
-  width:59%;
-}
-#home
-{
-  margin-left:.8rem;
-}
-}
+  #search-form
+    {
+      width:50%;
+    }
+    #home
+    {
+      margin-left:1.1rem;
+      margin-right: .6rem;
+    }
+    #logo
+    {
+      margin-right:.6rem;
+    }
+    #signup
+    {
+      margin-left:.6rem;
+    }
+    #login
+    {
+      margin-left:.8rem;
+    }
+  }
 @media only screen and (min-width: 640px){
-#search-form
-{
-  width:60%;
-}
-#home
-{
-  margin-left:.75rem;
-}
-}
-@media only screen and (min-width: 640px){
-#search-form
-{
-  width:63%;
-}
-#home
-{
-  margin-left:1rem;
-}
-}
+  #search-form
+    {
+      width:50%;
+    }
+    #home
+    {
+      margin-left:1.2rem;
+      margin-right: .75rem;
+    }
+    #logo
+    {
+      margin-right:.7rem;
+    }
+    #signup
+    {
+      margin-left:.7rem;
+    }
+    #login
+    {
+      margin-left:1rem;
+    }
+  }
+  @media only screen and (min-width: 670px){
+    #search-form
+      {
+        width:50%;
+      }
+      #home
+      {
+        font-size:.85rem;
+        margin-left:1.3rem;
+        margin-right: .8rem;
+      }
+      #logo
+      {
+        font-size:.85rem;
+        margin-right:.8rem;
+      }
+      #signup
+      {
+        font-size:.85rem;
+        margin-left:.8rem;
+      }
+      #login
+      {
+        font-size:.85rem;
+        margin-left:1.1rem;
+      }
+    }
 @media only screen and (min-width: 700px){
 #search-form
   {
